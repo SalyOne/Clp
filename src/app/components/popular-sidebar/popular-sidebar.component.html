@@ -1,0 +1,14 @@
+<div class="bg-white p-3 rounded-2xl">
+  <h2 class="text-midnight font-noto text-xl font-semibold py-3">პოპულარული</h2>
+
+  <div class="news-container divide-y divide-dashed divide-gray divide-opacity-40 overflow-auto">
+    @for(item of data; track item.id) {
+    <div class="news-item flex justify-start items-center gap-2 py-3 ">
+          <div class="image-container w-24 min-w-24 h-24 overflow-hidden rounded-lg">
+            <img src="./assets/images/moon.jpg" alt="popular article image" class="w-full hover:scale-110 duration-300 cursor-pointer">
+          </div>
+      <h3 class="text-midnight font-noto text-sm font-normal pb-1 pt-0.5 max-h-20 overflow-hidden"> {{item.title}}</h3>
+    </div>
+    }
+  </div>
+</div>
