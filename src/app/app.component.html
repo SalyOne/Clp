@@ -1,21 +1,17 @@
 <app-header></app-header>
 
 <div class="container grid grid-cols-12 gap-8 mt-8">
-  <!-- Column -->
-  <div class="col-span-12 md:col-span-9 ">
+  <div class="col-span-12 order-0 lg:order-none md:col-span-12 lg:col-span-9">
     <app-main-slider></app-main-slider>
   </div>
-  <!-- Column -->
-  <div class="col-span-12 md:col-span-3">
+  <div class="col-span-12 order-1  md:col-span-6 lg:order-none lg:col-span-3">
     <app-news-sidebar></app-news-sidebar>
   </div>
-  <!-- Column -->
-  <div class="col-span-12 md:col-span-9  sm:order-last md:order-none">
+  <div class="col-span-12 order-3 lg:order-none md:col-span-12 lg:col-span-9">
     <app-facts-slider></app-facts-slider>
     <app-blog></app-blog>
   </div>
-  <!-- Column -->
-  <div class="col-span-12 md:col-span-3 h-96 ">
+  <div class="col-span-12 order-2 lg:order-none md:col-span-6 lg:col-span-3 mb-3 h-96">
     <app-popular-sidebar></app-popular-sidebar>
   </div>
 
