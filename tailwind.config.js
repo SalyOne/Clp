@@ -24,6 +24,7 @@ module.exports = {
       'gray': '#657178',
       'light-gray': '#EFF4F5',
       'white': '#ffffff',
+      'background':'#f2f3f7'
     },
     boxShadow: {
       'light': '0px 0px 40px 0px rgba(0,0,0,0.08);',
