@@ -1,0 +1,17 @@
+
+:root{
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    position: absolute;
+  }
+  .swiper-pagination{
+    background: red;
+  }
+}
+.image-container{
+  height: 406px;
+  img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
