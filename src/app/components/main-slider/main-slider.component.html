@@ -1,10 +1,12 @@
 <div class="slider-container bg-white p-3 rounded-2xl">
   <swiper-container
+    #swiperContainer
     navigation="true"
     pagination="true"
     pagination-clickable="true"
     pagination-dynamic-bullets="true"
     effect="fade"
+    ref={swiperRef}
     loop="true">
     <swiper-slide>
       <div class="">
@@ -76,5 +78,6 @@
       </div>
     </swiper-slide>
   </swiper-container>
+
 </div>
 
