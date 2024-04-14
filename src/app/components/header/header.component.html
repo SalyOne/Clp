@@ -41,27 +41,49 @@
       </a>
 
       <div class="flex md:order-2">
+        <span
+          class="block p-3 mx-3 text-sm text-gray-900 rounded-full h-[40px] cursor-pointer hover:[>svg] flex justify-center items-center bg-primary-2 focus:ring-primary-1 focus:border-primary-1 outline-primary-1">
+          <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M10.8926 0.5H4.35734C2.23037 0.5 0.5 2.23037 0.5 4.35734V10.8928C0.5 13.0196 2.23037 14.75 4.35734 14.75H10.8928C13.0196 14.75 14.75 13.0196 14.75 10.8928V4.35734C14.75 2.23037 13.0196 0.5 10.8926 0.5V0.5ZM7.625 11.5214C5.47649 11.5214 3.72862 9.7735 3.72862 7.625C3.72862 5.47649 5.47649 3.72862 7.625 3.72862C9.7735 3.72862 11.5214 5.47649 11.5214 7.625C11.5214 9.7735 9.7735 11.5214 7.625 11.5214ZM11.6145 4.64751C10.9796 4.64751 10.4632 4.1311 10.4632 3.49618C10.4632 2.86126 10.9796 2.34474 11.6145 2.34474C12.2495 2.34474 12.766 2.86126 12.766 3.49618C12.766 4.1311 12.2495 4.64751 11.6145 4.64751Z"
+            fill="black"/>
+          <path
+            d="M7.62509 5.03418C6.19652 5.03418 5.03418 6.19643 5.03418 7.62509C5.03418 9.05365 6.19652 10.216 7.62509 10.216C9.05374 10.216 10.216 9.05365 10.216 7.62509C10.216 6.19643 9.05374 5.03418 7.62509 5.03418Z"
+            fill="black"/>
+          <path
+            d="M11.6145 3.18018C11.4404 3.18018 11.2986 3.32195 11.2986 3.49611C11.2986 3.67028 11.4404 3.81205 11.6145 3.81205C11.7888 3.81205 11.9306 3.67039 11.9306 3.49611C11.9306 3.32184 11.7888 3.18018 11.6145 3.18018Z"
+            fill="black"/>
+          </svg>
+        </span>
+        <span
+          class="block p-3 mr-3 text-sm text-gray-900 rounded-full h-[40px] cursor-pointer hover:text-primary-1 bg-primary-2 flex justify-center items-center focus:ring-primary-1 focus:border-primary-1 outline-primary-1">
+          <svg width="20" height="20" viewBox="0 0 20 20" fill="none" class="text-base" xmlns="http://www.w3.org/2000/svg">
+<path
+  d="M13.6987 2.00333L11.7799 2C9.62416 2 8.23102 3.54552 8.23102 5.93762V7.75313H6.30172C6.135 7.75313 6 7.89927 6 8.07954V10.71C6 10.8903 6.13516 11.0363 6.30172 11.0363H8.23102V17.6738C8.23102 17.854 8.36603 18 8.53274 18H10.6983C10.865 18 11 17.8539 11 17.6738V11.0363H13.6075C13.7742 11.0363 13.9092 10.8903 13.9092 10.71L13.9101 8.07954C13.9101 7.99299 13.8782 7.91009 13.8217 7.84884C13.7652 7.78758 13.6883 7.75313 13.6082 7.75313H11V6.2141C11 5.47438 11.5147 5.09886 12.4058 5.09886L13.6984 5.09836C13.865 5.09836 14 4.95222 14 4.77211V2.32958C14 2.14964 13.8652 2.00366 13.6987 2.00333Z"
+  fill="black"/>
+</svg>
+        </span>
         <button type="button" data-collapse-toggle="navbar-search" aria-controls="navbar-search" aria-expanded="false"
-                class="md:hidden text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 me-1">
+                class="md:hidden text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-4 focus:ring-gray-200 rounded-lg text-sm p-2.5 me-1">
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
           </svg>
         </button>
         <div class="relative hidden md:block">
-          <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+          <input type="text" id="search-navbar"
+                 class="block w-full p-2 ps-5 text-sm text-gray-900 rounded-2xl bg-primary-2 focus:ring-primary-1 focus:border-primary-1 outline-primary-1"
+                 placeholder="ძიება...">
+          <div class="absolute inset-y-0 end-4 flex items-center ps-3 pointer-events-none">
             <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                  fill="none" viewBox="0 0 20 20">
               <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                     d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
             </svg>
           </div>
-          <input type="text" id="search-navbar"
-                 class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                 placeholder="ძიება...">
         </div>
         <button data-collapse-toggle="navbar-search" type="button"
-                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+                class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400"
                 aria-controls="navbar-search" aria-expanded="false">
 
           <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
@@ -72,7 +94,7 @@
       </div>
 
       <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-search">
-        <div class="relative mt-3 md:hidden">
+        <div class="relative mt-3 sm:hidden">
           <div class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
             <svg class="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                  fill="none" viewBox="0 0 20 20">
@@ -125,19 +147,24 @@
                  [class.hidden]="isOpenDropdown">
               <ul class="py-2 text-sm text-gray-700 dark:text-gray-400" aria-labelledby="dropdownLargeButton">
                 <li>
-                  <a href="#" class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">მსოფლიო</a>
+                  <a href="#"
+                     class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">მსოფლიო</a>
                 </li>
                 <li>
-                  <a href="#" class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">ხელოვნება</a>
+                  <a href="#"
+                     class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">ხელოვნება</a>
                 </li>
                 <li>
-                  <a href="#" class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">სპორტი</a>
+                  <a href="#"
+                     class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">სპორტი</a>
                 </li>
                 <li>
-                  <a href="#" class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">რელიგია</a>
+                  <a href="#"
+                     class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">რელიგია</a>
                 </li>
                 <li>
-                  <a href="#" class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">კრიმინალი</a>
+                  <a href="#"
+                     class="block px-5 py-4 font-noto text-base text-gray hover:bg-primary-2 hover:text-primary-1 transition duration-300 rounded-2xl dark:hover:bg-gray-600 dark:hover:text-white">კრიმინალი</a>
                 </li>
               </ul>
             </div>
