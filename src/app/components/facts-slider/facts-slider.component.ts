@@ -14,18 +14,18 @@ import {SwiperContainer} from "swiper/swiper-element";
 export class FactsSliderComponent implements OnInit{
   constructor(private el: ElementRef<SwiperContainer>) { }
   ngOnInit(): void {
-    new Swiper('.slider-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      grid: {
-        rows: 3,
-      },
-      pagination:{
-        clickable:true
-      }
-    });
+    // new Swiper('SwiperContainer', {
+    //   navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    //   },
+    //   grid: {
+    //     rows: 3,
+    //   },
+    //   pagination:{
+    //     clickable:true
+    //   }
+    // });
 
   }
 }

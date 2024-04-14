@@ -2,9 +2,15 @@
 :root{
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
     position: absolute;
+    background: red;
   }
   .swiper-pagination{
     background: red;
+  }
+  .slider-container .swiper-pagination{
+    background: red;
+    background-color: yellow;
+    bottom: 600px;
   }
 }
 .image-container{
@@ -21,4 +27,7 @@
     height: 406px;
 
   }
+}
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
 }

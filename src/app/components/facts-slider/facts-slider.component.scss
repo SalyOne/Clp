@@ -6,3 +6,12 @@
     object-fit: cover;
   }
 }
+swiper-slide {
+  width: 100%;
+  @media screen and (min-width:980px){
+    width: calc((100% - 200px)/2);
+  }
+}
+.swiper-pagination-bullet-active {
+  background-color: #000 !important;
+}

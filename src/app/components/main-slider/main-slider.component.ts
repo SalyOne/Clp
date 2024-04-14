@@ -11,15 +11,15 @@ import Swiper from "swiper";
 })
 export class MainSliderComponent implements OnInit{
   ngOnInit(): void {
-    new Swiper('swiper-container', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      pagination:{
-        clickable:true
-      }
-    });
+    // new Swiper('swiper-container', {
+    //   navigation: {
+    //     nextEl: '.swiper-button-next',
+    //     prevEl: '.swiper-button-prev',
+    //   },
+    //   pagination:{
+    //     clickable:true
+    //   }
+    // });
 
   }
 
